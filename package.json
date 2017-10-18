@@ -1,23 +1,90 @@
 {
-  "name": "le-store-s3",
-  "version": "1.0.1",
-  "description": "A S3 strategy for node-letsencrypt and lambda function for handling challenges",
-  "main": "index.js",
-  "author": "Maythee Anegboonlap <null@llun.me>",
-  "license": "ISC",
+  "_args": [
+    [
+      {
+        "raw": "le-store-s3",
+        "scope": null,
+        "escapedName": "le-store-s3",
+        "name": "le-store-s3",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/mnt/61A95524259CB759/douleies/delivery-manager/letsencypt"
+    ]
+  ],
+  "_from": "le-store-s3@latest",
+  "_id": "le-store-s3@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/le-store-s3",
+  "_nodeVersion": "6.10.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/le-store-s3-1.0.1.tgz_1495810887126_0.5533521880861372"
+  },
+  "_npmUser": {
+    "name": "llun",
+    "email": "null@llun.in.th"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "le-store-s3",
+    "scope": null,
+    "escapedName": "le-store-s3",
+    "name": "le-store-s3",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/le-store-s3/-/le-store-s3-1.0.1.tgz",
+  "_shasum": "8d6055fab41c0a3a17796556b73f00abd8847483",
+  "_shrinkwrap": null,
+  "_spec": "le-store-s3",
+  "_where": "/mnt/61A95524259CB759/douleies/delivery-manager/letsencypt",
+  "author": {
+    "name": "Maythee Anegboonlap",
+    "email": "null@llun.me"
+  },
+  "bugs": {
+    "url": "https://github.com/llun/le-store-s3/issues"
+  },
   "dependencies": {
     "aws-sdk": "^2.54.0",
     "bluebird": "^3.5.0",
     "pyconf": "^1.1.2"
   },
+  "description": "A S3 strategy for node-letsencrypt and lambda function for handling challenges",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8d6055fab41c0a3a17796556b73f00abd8847483",
+    "tarball": "https://registry.npmjs.org/le-store-s3/-/le-store-s3-1.0.1.tgz"
+  },
+  "gitHead": "424184a16fbe2ec45948938018e3b280c8462298",
+  "homepage": "https://github.com/llun/le-store-s3#readme",
   "keywords": [
     "greenlock",
     "letsencrypt",
     "s3",
     "store"
   ],
-  "bugs": {
-    "url": "https://github.com/llun/le-store-s3/issues"
-  },
-  "homepage": "https://github.com/llun/le-store-s3#readme"
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "llun",
+      "email": "null@llun.in.th"
+    }
+  ],
+  "name": "le-store-s3",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {},
+  "version": "1.0.1"
 }

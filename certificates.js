@@ -98,8 +98,8 @@ class Certificates {
       const privkeyArchive = path.join(archiveDir, `privkey${checkpoints}.pem`)
 
       return Promise.all([
-        s3.putObjectAsync({ Bucket, Key: certArchive, Body: pems.cert }),
-        s3.putObjectAsync({ Bucket, Key: certPath, Body: pems.cert }),
+        s3.putObjectAsync({ Bucket, Key: certArchive, Body: pems.cert, }),
+        s3.putObjectAsync({ Bucket, Key: certPath, Body: pems.cert, ACL: 'private' }),
         s3.putObjectAsync({ Bucket, Key: chainArchive, Body: pems.chain }),
         s3.putObjectAsync({ Bucket, Key: chainPath, Body: pems.chain }),
         s3.putObjectAsync({ Bucket, Key: fullchainArchive, Body: pems.cert + pems.chain }),
